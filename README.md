@@ -1,9 +1,11 @@
 # Patterns_Questions
 Here Khlaid Bin Thabit, I solved all the questions about patterns
+
 Pattern Questions
 
 Print these patterns using loops:
 
+```text
 
 1.  *****
     *****
@@ -271,3 +273,5 @@ Print these patterns using loops:
        12    21
        123  321
        12344321
+```
+
