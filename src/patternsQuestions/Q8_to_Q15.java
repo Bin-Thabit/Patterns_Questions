@@ -6,8 +6,9 @@ public class Q8_to_Q15 {
 		/*
 		pattern8(5);
 		pattern9(5);
-		*/
 		pattern10(5);
+		*/
+		pattern11(5);
 	}
 	// Pattern 8
 	
@@ -74,4 +75,25 @@ public class Q8_to_Q15 {
 		}
 	}
 	
+	// Pattern 10
+	
+			/*
+					   * * * * *
+					    * * * *
+					     * * *
+					      * *
+					       *
+		    */
+	
+	static void pattern11(int n) {
+		for (int row = 1; row <= n; row++) {
+			for (int space = 1; space <= row - 1; space++) {
+				System.out.print(" ");
+			}
+				for (int col = row; col <= n; col++) {
+					System.out.print("* ");
+				}
+			System.out.println();
+		}
+	}
 }
