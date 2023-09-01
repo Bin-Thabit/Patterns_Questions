@@ -7,8 +7,9 @@ public class Q8_to_Q15 {
 		pattern8(5);
 		pattern9(5);
 		pattern10(5);
-		*/
 		pattern11(5);
+		*/
+		pattern12(5);
 	}
 	// Pattern 8
 	
@@ -75,7 +76,7 @@ public class Q8_to_Q15 {
 		}
 	}
 	
-	// Pattern 10
+	// Pattern 11
 	
 			/*
 					   * * * * *
@@ -96,4 +97,33 @@ public class Q8_to_Q15 {
 			System.out.println();
 		}
 	}
+	// Pattern 12
+	
+				/*
+						    * * * * *
+						     * * * *
+						      * * *
+						       * *
+						        *
+						        *
+						       * *
+						      * * *
+						     * * * *
+						    * * * * *
+
+			    */
+	static void pattern12(int n) {
+		for (int row = 1; row <= 2 * n; row++) {
+			int correctSpace = row <= n ? row - 1 : 2 * n - row;
+			for (int space = 1; space <= correctSpace; space++) {
+				System.out.print(" ");
+			}
+			int correctCol = row <= n ? row : 2 * n - row + 1;
+				for (int col = correctCol; col <= n; col++) {
+					System.out.print("* ");
+				}
+			System.out.println();
+		}
+	}
+	
 }
