@@ -1,6 +1,6 @@
 # Patterns_Questions
 ###  #DSAwithKunal 
-Here Khlaid Bin Thabit, I solved the questions from 1 to 12 
+Here Khalid Bin Thabit, I solved the questions from 1 to 12 
 #### I still solve some questions everyday so i didn't finish them yet :)
 
 Pattern Questions
